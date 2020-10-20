@@ -1,1 +1,1 @@
-# rust_grep
+# rustgrep
