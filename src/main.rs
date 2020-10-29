@@ -18,7 +18,7 @@ fn main() {
         println!("Problem parsing arguments: {}", err);
         process::exit(1);
     });
-    println!("Searching for {} in file {}", config.query, config.filename);
+    // println!("Searching for {} in file {}", config.query, config.filename);
 
     // run(config); with error handling
     if let Err(e) = run(config) {
