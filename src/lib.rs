@@ -61,7 +61,7 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
 
 
 
-
+// Approach used here TDD = Test-Driven Development
 // Testing
 #[cfg(test)]
 mod tests {
